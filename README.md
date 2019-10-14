@@ -1,6 +1,5 @@
 # Christmas-Game
 
-# Google doc:
 # Concept:
 	Overall objective of the game: save Christmas.
 	Level 1: The goal of Level 1 is to collect points by collecting presents that bounce around the screen. There are 3 types of presents with varying speeds and point values. Each wave of presents contains a mix of the three.
