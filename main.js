@@ -9,4 +9,6 @@ function Start() {
 
   // Initialize Santa
   InitializeSanta();
+
+  InitializePresents();
 }

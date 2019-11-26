@@ -14,9 +14,12 @@ function InitializeSanta() {
     },
     speed : 3,
     initialized : true,
-    collected : []
+    collected : [],
+    falling : false,
+    points : 0
   };
 }
+// function resetSpeed() {}
 
 // Rotate rotates a point around
 // cx, cy   :   The central point
@@ -58,7 +61,7 @@ function RenderSanta(context) {
 	drawEllipse(SANTA.x-30, SANTA.y -12, 30, 10, "#FFDAB9", context);
 }
 
-function drawEllipse(x, y, w, h, color, context) 
+function drawEllipse(x, y, w, h, color, context)
 {
 	context.beginPath();
 	context.moveTo(x, y-h/2);

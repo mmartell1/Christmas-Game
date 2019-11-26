@@ -13,5 +13,17 @@ var SANTA = {
   latest : {
     x : 0,
     y : 0
-  }
+  },
+  points : 0
 };
+
+var PRESENTS = {
+  initialized : false,
+  positions : [],
+  speeds : [],
+  collisions : [],
+  latest : {
+    x : 0,
+    y : 0
+  }
+}

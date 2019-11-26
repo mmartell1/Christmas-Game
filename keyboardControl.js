@@ -22,7 +22,7 @@ document.addEventListener('keydown', function(event) {
       CONTROLS.santa.backward = true;
       break;
       break;
-    case " ":
+    case "ArrowUp":
       CONTROLS.santa.jump = true;
       break;
     default:
@@ -40,7 +40,7 @@ document.addEventListener('keyup', function(event) {
       CONTROLS.santa.backward = false;
       break;
       break;
-    case " ":
+    case "ArrowUp":
       CONTROLS.santa.jump = false;
       break;
     default:
